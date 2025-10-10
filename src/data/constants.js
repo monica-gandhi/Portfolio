@@ -1,7 +1,7 @@
 export const Bio = {
   name: "Monica",
   roles: [
-    "Full Stact Developer(React & Java)"
+    "React & Java Developer"
   ],
   description:
     "As a passionate developer, I bring a blend of creativity and technical expertise to every project, always striving for excellence. My commitment to continuous learning fuels my desire to tackle new challenges and push boundaries. With a collaborative spirit and a positive outlook, I'm excited to contribute innovative solutions that make a real impact.",
@@ -108,11 +108,6 @@ export const skills = [
         name: "Docker",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
-      {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
       },
       {
         name: "VS Code",
@@ -232,12 +227,11 @@ export const projects = [
  
   {
     id: 0,
-    title: "E-Commerce",
-    date: "Apr 2023 - May 2023",
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat pellentesque vehicula. Mauris ullamcorper, neque eu hendrerit porta, mi tortor mattis eros, at porta ligula neque ut augue. Etiam vehicula pharetra turpis. Etiam vulputate cursus diam. Nam lobortis leo dui, vel facilisis libero bibendum id. Pellentesque est leo, vehicula vel lorem sed, suscipit tempus erat. Phasellus lobortis, augue sit amet dictum maximus, libero erat posuere lacus, ut pharetra dui augue vitae tellus. Etiam in enim enim. Praesent eu consequat felis. Proin eros est, tempus vel urna nec, feugiat ullamcorper leo.",
-    image:
-      "",
-    tags: ["React Js", "Redux","Java"],
+    title: "Art Republic",
+    date: "Apr 2023 - July 2023",
+    description:"Art Republic is a digital art platform, providing a space where creativity flourishes. Here,the administrator wields the power to create artist profiles, while artists themselves are granted theability to seamlessly upload their artworks and collections. Moreover, artists possess the privilege to revise and refine the details of their creations, ensuring their portfolio is always up-to-date",
+    image:"https://drive.google.com/file/d/17D-z2ytQ6NUNVKhzFZwp_yTMF1JkiTES/view?usp=sharing",
+    tags: ["React Js", "Redux","Java" ,"MySQL","HTML5","CSS"],
     category: "web app",
     github: "",
     webapp: "",
@@ -253,19 +247,48 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Whatsapp Clone",
-    date: "Oct 2023 - Mar 2024",
+    title: "Code Gen",
+    date: "Aug 2023 - Mar 2024",
     description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat pellentesque vehicula. Mauris ullamcorper, neque eu hendrerit porta, mi tortor mattis eros, at porta ligula neque ut augue. Etiam vehicula pharetra turpis. Etiam vulputate cursus diam. Nam lobortis leo dui, vel facilisis libero bibendum id. Pellentesque est leo, vehicula vel lorem sed, suscipit tempus erat. Phasellus lobortis, augue sit amet dictum maximus, libero erat posuere lacus, ut pharetra dui augue vitae tellus. Etiam in enim enim. Praesent eu consequat felis. Proin eros est, tempus vel urna nec, feugiat ullamcorper leo.",
+    "Code Gen is a powerful code generation tool built to streamline the development process.It allows users to generate CRUD operation code for Java applications based on specified project, table,and database connection properties. By using a single API, developers can input project details, table schemas, and database connection information, and Code Gen automatically generates entity, service, and controller classes, enabling rapid development of Java applications.",
     image:
-      "",
+      "https://drive.google.com/file/d/17D-z2ytQ6NUNVKhzFZwp_yTMF1JkiTES/view?usp=sharing",
     tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
+      "Java",
+      "Spring Framework",
+      "MySQL",
+      "Postman",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "",
+    member: [
+      {
+        name: "Monica",
+        img: "https://avatars.githubusercontent.com/u/176323262?v=4",
+        linkedin: "https://www.linkedin.com/in/monica-d-342421318",
+        github: "https://github.com/monica-gandhi",
+      },
+     
+    ],
+  },
+   {
+    id: 2,
+    title: "Momee",
+    date: "May 2025 - Aug 2025",
+    description:
+    "Momee is a mother and baby care web application built with React. I completed the frontend for the admin panel and the Momee registration app, which includes a user registration flow with a set of questions and Razorpay subscription integration.",
+    image:
+      "https://drive.google.com/file/d/17D-z2ytQ6NUNVKhzFZwp_yTMF1JkiTES/view?usp=sharing",
+    tags: [
+      "React",
       "Redux",
-      "NodeMailer",
+      "MongoDB",
+      "Postman",
+      "React-hot-toast",
+      "Tailwind",
+      "Quill text editor",
+      "Google Sign in",
     ],
     category: "web app",
     github: "",
