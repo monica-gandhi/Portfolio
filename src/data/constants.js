@@ -1,7 +1,7 @@
 export const Bio = {
   name: "Monica",
   roles: [
-    "Software Engineer"
+    "Full Stact Developer(React & Java)"
   ],
   description:
     "As a passionate developer, I bring a blend of creativity and technical expertise to every project, always striving for excellence. My commitment to continuous learning fuels my desire to tackle new challenges and push boundaries. With a collaborative spirit and a positive outlook, I'm excited to contribute innovative solutions that make a real impact.",
